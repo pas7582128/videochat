@@ -40,16 +40,12 @@
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
 
-    var username = "";
-    while(username=="" || username==null)
-    {
-        username = prompt("Please. Enter your name if you want to start.");
-        if(username!=null)
-        {
-            username = username.trim();
-        }
-    }
-    // var username = "akash";
+    // var username = "";
+    // while(username=="" || username==null)
+    // {
+    //     username = prompt("Please. Enter your name if you want to start.");
+    // }
+    var username = "akash";
     var d = new Date();
     var hours = (d.getHours()<10?"0":"")+d.getHours();
     var minutes = (d.getMinutes()<10?"0":"")+d.getMinutes();
@@ -126,6 +122,10 @@
                 <source src="AudiLoop.mp4" type="video/mp4">
             </video>
             <iframe class="child2" src="https://www.youtube.com/embed/mmmaeHBCTOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br>
+            <a itemprop="url" href="https://www.digitaljalebi.com" class="header-logo logo-image">
+                <img itemprop="logo" src="https://www.digitaljalebi.com/wp/wp-content/uploads/2018/07/dj-logo1-03_1.png" class="main-logo" alt="digital-jalebi">
+            </a>
         </div>
         <div class="col-md-4" class="chat-box-par">
             <div class="chat-box-child">
